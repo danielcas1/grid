@@ -1,0 +1,13 @@
+h1{font-size: 50px;}
+h2{font-size: 30px;}
+h3{font-size: 30px;}
+
+/* Colored grid styles */
+.grid-container{display:grid; align-items:stretch}
+.cell{position:relative; height:80px; border-radius:6px; overflow:hidden; transition:transform .18s ease, box-shadow .18s ease}
+.cell:hover{transform:translateY(-6px); box-shadow:0 8px 20px rgba(0,0,0,.18)}
+.color-label{position:absolute; right:6px; bottom:6px; background:rgba(255,255,255,.85); color:#111; padding:4px 8px; border-radius:4px; font-weight:600; font-size:12px}
+
+@media (max-width:640px){
+    .cell{height:60px}
+}
