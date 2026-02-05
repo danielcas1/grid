@@ -1,41 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <style>
-        body{
+        body {
             background-color: white;
         }
-    
-        
-        
+
+        img {
+            object-fit: cover;
+            object-position: center;
+            height: 300px;
+            width: 900px;
+            transition: height 0.5s ease;
+        }
+
+
+        img:hover {
+            height: 900px;
+        }
     </style>
 </head>
+
 <body>
     <h1>Loja do Daniel</h1>
 
+    <img src="https://images.unsplash.com/photo-1770152626352-50fdcc2e6ba6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Imagem de instrumentos musicais" title="Loja de instrumentos" width="900px" />
+
     <p>Seja bem-vindo à nossa loja, onde os melhores instrumentos são vendidos</p>
-    
+
     <h2>Cordas</h2>
-        <p>Instrumentos de cordas dedilhadas.</p>
+    <p>Instrumentos de cordas dedilhadas.</p>
+<table border="1">
+    
+    <tr>
+     <th>Instrumento</th>
+     <th>Preço</th>
+     <th>Marca</th>   
+    </tr>
 
-         <ul>
-            <li>Guitarra</li>
-          <li>Baixo</li>
-          <li>Violão</li>
-        </ul>
+    <tr>
+        <td>Violão</td>
+        <td>R$ 1500,00</td>
+        <td>Tagima</td>
+    </tr>
 
+    <tr>
+        <td>Ukulele</td>
+        <td>R$ 800,00</td>
+        <td>Mahalo</td>
+    </tr>
+
+    <tr>
+        <td>Baixo</td>
+        <td>R$ 2000,00</td>
+        <td>Fender</td>
+    </tr>
+</table>
     <h3>Sopros</h3>
-        <p>Instrumentos de sopro.</p>
+    <p>Instrumentos de sopro.</p>
 
-        <ul>
-            <li>Oboé</li>
-            <li>Didjeridu</li>
-            <li>Flauta</li>
-        </ul>
+    <ul>
+        <li>Oboé</li>
+        <li>Didjeridu</li>
+        <li>Flauta</li>
+    </ul>
 </body>
 
 
