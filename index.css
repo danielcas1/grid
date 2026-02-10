@@ -1,5 +1,28 @@
 h1{font-size: 50px;}
 h2{font-size: 30px;}
 h3{font-size: 30px;}
+h4{font-size: 20px;} 
 
-table{border-collapse: collapse;}
+#barradepesquisa{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 1000;}
+
+    #imagemprincipal{
+        display: block;
+     margin: 0% auto;}
+
+    .titulotabela{
+        background-color: #ffffff;
+        font-weight: bold;
+        width: 80px;
+      }
+
+        table th, table td {
+            border: #000000 solid 1px;
+            border-collapse: collapse
+        }
